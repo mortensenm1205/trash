@@ -4,7 +4,14 @@
 }
 
 .box {
-    background-color: var(--box-color);
+    background-color: pink;
     width: 100px;
     height: 100px;
+}
+
+/* Testing nested elements with css variables */
+.inner-box {
+    width: 50%;
+    height: 50%;
+    background-color: var(--box-color);
 }
