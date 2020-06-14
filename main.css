@@ -17,7 +17,6 @@
     width: 50%;
     height: 50%;
     background-color: var(--box-color);
-    margin: auto;
     /* Testing out absolute positioning */
     position: absolute;
     top: 25%;
