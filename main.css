@@ -7,6 +7,9 @@
     background-color: pink;
     width: 100px;
     height: 100px;
+    /* Testing out relative positioning */
+    position: relative;
+    left: 47%;
 }
 
 /* Testing nested elements with css variables */
@@ -14,4 +17,5 @@
     width: 50%;
     height: 50%;
     background-color: var(--box-color);
+    margin: auto;
 }
